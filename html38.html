@@ -1,0 +1,44 @@
+<!--forms-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>demo</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+<form name="fm1">
+<label>First Name:</label>
+<input type="text" name="fna" placeholder="First Name" required autofocus><br><br>
+<label>Last Name:</label>
+<input type="text" name="lna" placeholder="Last Name" required><br><br>
+<label>Course:</label>
+<input type="checkbox" name="course" value="dca">DCA
+<input type="checkbox" name="course" value="wdev">Web Developer
+<input type="checkbox" name="course" value="wdes">Web Designer
+<br><br>
+<label>Fee:</label>
+<input type="radio" value="cash" name="fees" checked>Cash
+<input type="radio" value="cheque" name="fees" checked>Cheque
+<input type="radio" value="dd" name="fees" checked>dd
+<br><br>
+<label>Place:</label><select name="apl">
+  <option value="ongole">ONGOLE</option>
+  <option value="nellore">NELLORE</option>
+  <option value="guntur">GUNTUR</option>
+</select><br><br>
+<label>Basic Qualification:</label>
+<select multiple name="bq">
+ <option value="ssc">SSC</option>
+ <option value="inter">INTER</option>
+ <option value="degree">DEGREE</option>
+ <option value="pg">PG</option>
+ <option value="diploma">DIPLOMA</option>
+</select><br><br>
+<label>Adress:</label>
+<textarea name="adr"></textarea><br><br>
+<input type="submit" value="submit">
+<input type="reset" value="reset" onclick="reset()">
+</form>
+</body>
+</html>
